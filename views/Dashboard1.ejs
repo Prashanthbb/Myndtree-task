@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div align="left" >
+<br>
+  <h1>Dash Board</h1>
+
+  <h3>Your Profile</h3>
+
+  <p1>Name: <%- result["Name"] %></p1>
+  <br>
+  <p2>Experience: <%- result["Experience"] %></p2>
+  <br>
+  <p3>Adress: <%- result["Adress"] %></p3>
+  <br>
+  <p4>Email: <%- result["Email"] %></p4>
+  <br>
+  <p5>Description: <%- result["Description"] %></p5>
+  <br>
+
+
+<br></br>
+
+<!-- <a href="/upload-resume?email=<%- result["email"] %>"><button type="button" >Upload Resume</button></a> -->
+
+<br></br>
+<h2>Resume details</h2>
+<div  style="border: 2px solid grey; border-radius: 5px;">
+<% if(html){ %>
+   <%- html %>
+<% } %>
+</div>
+
+
+
+</form>
+</div>
+</body>
+</html>
